@@ -326,10 +326,5 @@ public class TG_window {
 		JMenuItem mntmAboutEditor = new JMenuItem("About Editor");
 		mntmAboutEditor.setFont(new Font("Microsoft YaHei UI", Font.BOLD, 14));
 		mnHelp.add(mntmAboutEditor);
-		
-		JDesktopPane desktopPane = new JDesktopPane();
-		desktopPane.setBackground(UIManager.getColor("activeCaption"));
-		desktopPane.setBounds(0, 26, 560, 388);
-		frame.getContentPane().add(desktopPane);
 	}
 }
